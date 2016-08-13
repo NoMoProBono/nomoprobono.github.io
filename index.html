@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>No Mo' Pro Bono!</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, minimal-ui" />
+        <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
+    </head>
+    <body>
+        <header class="landing-page">
+            <div class="plane">
+            <span style="display: block;">
+                <h1 class="title-landing">No Mo' Pro Bono</h1>
+            </span>
+        <hr />
+				<h2 class="enter">
+                    <a href="http://www.nomoprobono.com/home">Enter If You Dare</a>
+                </h2>
+                <br>
+                <br>
+				<span class="social">
+					<a href="https://twitter.com/nomoprobono" class="transition"><i class="fa fa-twitter-square fa-lg"></i></a>  
+					<a href="https://instagram.com/nomoprobono/" class="transition"><i class="fa fa-instagram fa-lg"></i></a>
+				</span>
+            </div>
+        </header>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("body").css("display", "none");
+		$("body").fadeIn(1500);
+		$("a.transition").click(function(event) {
+			event.preventDefault();
+			linkLocation = this.href;
+			$("body").fadeOut(1000,redirectPage);
+		});
+		function redirectPage () {
+			window.location = linkLocation;
+		}
+	});
+</script>
+    </body>
+</html>

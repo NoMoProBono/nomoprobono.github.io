@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css?family=Creepster|Roboto+Mono:400,400i';
+
+html {
+  background-color: #6638F0;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow: hidden-x;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+
+h2, .enter {
+    margin-bottom: .75rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (min-width: 650px) {
+  . {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+
+.subheader {
+  color: #880088;
+}
+
+p, hr {
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: none;
+  margin-top: -1px;
+  height: 1px;
+  background-color: #c0c8c9;
+}
+
+a {
+    color: #fdfdfd;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    target-name: new;
+    target-new: tab;
+}
+
+  a:hover {
+    color: #B0F566;
+  }
+
+i {
+  padding-left: 10px;
+}
+
+.plane {
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+.title-home {
+  padding: 1.5rem;
+}
+
+html {
+  background-color: #6638F0;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow: hidden-x;
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  html {
+    height: 100%;
+  }
+
+  html:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+
+  body {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 38rem;
+  }
+}
+
+  .landing-page {
+    color: #fdfdfd;
+    font-family: 'Creepster', cursive;
+  }
